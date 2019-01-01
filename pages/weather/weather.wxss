@@ -1,7 +1,7 @@
 /**weather.wxss**/
 
 /*城市信息*/
-.city {padding: 3% 5%; background: #ddd; overflow: hidden;}
+.city {padding: 3% 3%; background: #ddd; overflow: hidden;}
 .city .dwicon{ width: 30rpx; height: 30rpx; float: left; margin: 5px;}
 .city text{font-size: 16px; color: #666; float: left;}
 .city .zbicon{ width: 30rpx; height: 30rpx; float: right;margin: 8px 5px;}

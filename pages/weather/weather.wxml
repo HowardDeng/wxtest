@@ -2,17 +2,17 @@
 <view class="container">
   <view class="city" bindtap="bindViewTap">
     <image class="dwicon" src='../../images/curcity.png'></image>
-    <text>当前城市：{{basic.city}}</text>
+    <text>当前城市：{{city}}</text>
     
     <text class="update">最近更新时间：{{basic.update.loc}}</text>
     <image class="zbicon" src='../../images/update.png'></image>
   </view>
 
   <view class="weather" bindtap="showcurid">
-    <image class="section" src="{{now.cond.src}}"></image>
+    <image class="section" src="{{now.cond_src}}"></image>
     <view class="aside">
       <text class="temperature">{{now.tmp}}℃</text>
-      <text>{{now.cond.txt}} | {{now.wind.dir}}{{now.wind.sc}}级</text>
+      <text>{{now.cond_txt}} | {{now.wind_dir}}{{now.wind_sc}}级</text>
     </view>
     <view class="other">
       <view class="border_r"><text class="title">相对湿度</text><text class="info">{{now.hum}}%</text></view>
