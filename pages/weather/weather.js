@@ -85,7 +85,7 @@ Page({
   //3、自定义页面方法：获取当前天气API
   getnow:function(fn){
     wx.request({//请求服务器，类似ajax
-      url: 'https://www.xiaoffjj.com/wether', 
+      url: 'https://xiaoffjj.com/wether', 
       data: {
             city:this.data.city,
             province:this.data.province,
@@ -97,7 +97,7 @@ Page({
   //获取生活指数API
   getsuggestion:function(fn){
     wx.request({
-      url: 'https://www.xiaoffjj.com/lifestyle', 
+      url: 'https://xiaoffjj.com/lifestyle', 
       data: {
         city: this.data.city,
         province: this.data.province,
